@@ -1,4 +1,5 @@
 base:
   '*':
       - core
-
+  'server1.opencomplain.com':
+     - env
