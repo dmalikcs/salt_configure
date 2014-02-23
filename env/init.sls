@@ -1,8 +1,9 @@
-/root/.virtualenvs/saltstack
+virtualenv-salt
     virtualenv:
         - managed
-        - /root/.virtualenvs
+        - name: 'saltstack'
         - systems_site_packages: False
+        - cwd: '/root/.virtualenvs'
 
 
 
