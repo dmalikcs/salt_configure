@@ -32,7 +32,7 @@ etc-hosts:
 ##/etc/resolv.conf
 etc-resolve.conf:
   file:
-    - managed: True
+    - managed
     - name: /etc/resolv.conf
     - source: salt://core/files/resolv.conf
     - user: root
