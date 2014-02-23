@@ -1,10 +1,9 @@
 base:
   '*':
-      - core
-  'server1.opencomplain.com':
+     #- core
      #- env
-     - git
+     #- git
 
-prod:
-    '*'
-      - core
+development:
+    'server1.opencomplain.com':
+     -core
