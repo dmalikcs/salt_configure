@@ -7,8 +7,7 @@ users:
     - home: /home/dmalik6
     - groups:
       - wheel
-    - password: 'Unix123'
 
 ## To-do
-# Deep
+# dmalik5,anud.malik, 
 
