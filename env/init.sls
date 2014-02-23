@@ -1,4 +1,4 @@
-virtualenv-salt
+virtualenv-salt:
     virtualenv:
         - managed
         - name: 'saltstack'
