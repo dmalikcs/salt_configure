@@ -30,7 +30,7 @@ etc-hosts:
 
 
 ##/etc/resolv.conf
-etc-resolve.conf
+etc-resolve.conf:
   file:
     - managed: True
     - name: /etc/resolv.conf
