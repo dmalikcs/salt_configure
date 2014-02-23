@@ -2,4 +2,4 @@ base:
   '*':
      - core
      - core.hosts
-     - core.resolve
+     #- core.resolve
