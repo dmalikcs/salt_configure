@@ -1,0 +1,13 @@
+# Do not remove the following line, or various programs
+# that require network functionality will fail.
+127.0.0.1		localhost.localdomain localhost
+::1		localhost6.localdomain6 localhost6
+
+###memcahed hostip
+192.168.1.101		server1.opencomplain.com	server1
+#192.168.1.12		rabbitmq2.opencomplain.com	rabbitmq2
+#192.168.1.10		rabbitmq1.opencomplain.com	rabbitmq1
+#192.168.1.110		memcached1.opencomplain.com	memcached1
+#192.168.1.111		memcached2.opencomplain.com	memcached2
+#199.195.119.66		openerp.in              openerp #:7822
+192.168.1.103       openerp.krunksystems.com    openerp
