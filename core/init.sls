@@ -11,6 +11,7 @@ core-tools:
         - user: root
         - group: root
         - mode: 644
+        - template: jinja
         - context:
             status: "changed"
 
