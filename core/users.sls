@@ -1,7 +1,7 @@
 users:
   user:
     - present
-    - name: {{ pillar['abc'] }}
+    - name: {{ pillar.get('extra_user') }}
     - fullname: Deepak Malik
     - shell: /bin/bash
     - home: /home/dmalik6
