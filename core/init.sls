@@ -12,6 +12,8 @@ core-tools:
         - group: root
         - mode: 644
         - template: jinja
+        - defauls:
+            status: "disabled"
         - context:
-            status: "changed"
+            status: "disabled"
 
