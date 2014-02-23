@@ -1,7 +1,7 @@
 users:
   user:
     - present
-    - name: dmalik6
+    - name: {{ pillar['abc'] }}
     - fullname: Deepak Malik
     - shell: /bin/bash
     - home: /home/dmalik6
