@@ -7,7 +7,7 @@ core-tools:
 /etc/selinux/config:
     file:
         - managed
-        - source: salt://selinux/config
+        - source: salt://core/files/selinux/config
         - user: root
         - group: root
         - mode: 644
