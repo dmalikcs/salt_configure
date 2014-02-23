@@ -1,11 +1,11 @@
-{% for user in pillar.get('extra_user') %}
+{% for duser in pillar.get('extra_user') %}
 users:
   user:
     - present
-    - name: {{ user }}
+    - name: {{ duser }}
     - fullname: Deepak Malik
     - shell: /bin/bash
-    - home: /home/dmalik6
+    - home: /home/{{ duser }}
     - groups:
       - wheel
 {% endfor %}
